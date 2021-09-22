@@ -1,4 +1,4 @@
-#💰 ConversorDeMoedas
+💰 ConversorDeMoedas
 Simples conversor de moedas, usando HTML, CSS e JS.
 
 ❗ Sobre o Projeto
