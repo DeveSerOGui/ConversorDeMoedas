@@ -1,0 +1,31 @@
+function ConverterDolarEUA() {
+  var valor = parseFloat(document.getElementById("valor").value);
+  var valorEmDolar = parseFloat(valor / 5.29).toFixed(2);
+  var elementoConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O resultado em Dólar americano é $ " + valorEmDolar;
+  elementoConvertido.innerHTML = valorConvertido;
+}
+
+function ConverterDolarCAD() {
+  var valor = parseFloat(document.getElementById("valor").value);
+  var valorEmDolarCAD = parseFloat(valor / 4.14).toFixed(2);
+  var elementoConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O resultado em Dólar canadense é $ " + valorEmDolarCAD;
+  elementoConvertido.innerHTML = valorConvertido;
+}
+
+function ConverterEuro() {
+  var valor = parseFloat(document.getElementById("valor").value);
+  var valorEmEuro = parseFloat(valor / 6.2).toFixed(2);
+  var elementoConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O resultado em Euro é $ " + valorEmEuro;
+  elementoConvertido.innerHTML = valorConvertido;
+}
+
+function ConverterIene() {
+  var valor = parseFloat(document.getElementById("valor").value);
+  var valorEmIene = parseFloat(valor * 21).toFixed(2);
+  var elementoConvertido = document.getElementById("valorConvertido");
+  var valorConvertido = "O resultado em Bitcoin é $ " + valorEmIene;
+  elementoConvertido.innerHTML = valorConvertido;
+}
